@@ -3,4 +3,5 @@
 Built on the brilliant [Superfine](https://github.com/jorgebucaran/superfine)
 that powers [Hyperapp](https://github.com/jorgebucaran/hyperapp/).
 
-I have to go to bed, so will update this later.
+For now I am just playing around with the kind of interface that I would want
+to use.
