@@ -3,6 +3,17 @@ import * as superfine from 'superfine'
 export var h = superfine.h
 export var recycle = superfine.recycle
 
+export function subState(state, update, path) {
+    return [
+        state[path],
+        function updateSubState(diff) {
+            var o = {}
+            o[path] = diff
+            return o
+        }
+    ]
+}
+
 var defaultConfig = {
     reducer: extend,
     shouldUpdate: shallowCompare
